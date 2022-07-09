@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Joan", serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    background-image: url(image\ 6.avif);
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+nav h3 {
+    text-decoration: underline rgb(165, 29, 135);
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0px 10px;
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.8s ease;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    background-color: blueviolet;
+}
+
+nav hr {
+    height: 93vh;
+    width: 1px;
+    margin-right: -200px;
+    border: none;
+    background-color: #fff;
+}
+
+nav button {
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: 0.8s ease;
+}
+
+nav button:hover {
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+
+.image img {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 5px 20px white;
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    pointer-events: none;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    right: -7%;
+    transform: rotate(-90deg);
+}
+
+.social a {
+    color: #fff;
+    margin-left: 6px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.perfumes {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5%;
+}
+
+.perfumes img {
+    position: relative;
+    border-radius: 20px;
+    margin-left: 30px;
+    right: 35%;
+    transition: all 0.8s ease;
+    border: 2px solid #fff;
+    box-shadow: 0px 5px 20px white;
+}
+
+.perfumes img:hover {
+    transform: scale(1.2);
+    margin-bottom: 30px;
+}

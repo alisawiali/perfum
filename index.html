@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <title>Perfumes</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h3>Imad- Perfumes</h3>
+            <ul>
+                <li><a href="https://www.aboutyou.de/c/frauen/bekleidung-20204" target="blank">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">offes</a></li>
+            </ul>
+
+            <hr />
+
+            <div>
+                <button>contact Us</button>
+            </div>
+        </nav>
+
+        <div class="image">
+            <img src="image 2.avif" alt="" class="conan" />
+        </div>
+        <div class="text">
+            <h1>Perfume</h1>
+            <h4>the best perfum the world</h4>
+            <p>what you lick and you want</p>
+        </div>
+
+        <div class="social">
+            <a href="https://de.wikipedia.org/wiki/TikTok">Tiktok</a>
+            <a href="https://www.google.com/maps/?hl=de">Google maps</a>
+            <a href="https://www.instagram.com/">instgram</a>
+        </div>
+
+        <div class="perfumes">
+            <img src="image 1.avif" width="6%" onclick="active ( 'image 1.avif')" />
+            <img src="image 5.avif" width="6%" onclick="active ( 'image 5.avif')" />
+            <img src="image 4.avif" width="6%" onclick="active( 'image 4.avif')" />
+            <img src="image7.avif" width="6%" onclick="active( 'image7.avif')" />
+        </div>
+    </div>
+    <script>
+        function active(object) {
+            document.querySelector(".conan").src = object;
+        }
+    </script>
+</body>
+
+</html>
