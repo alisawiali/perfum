@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(55, 55, 175);
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-weight: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.Burcu {
+    margin-top: 50px;
+}
+
+div {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    background-color: rgb(123, 123, 199);
+    border-radius: 10px 100px;
+    width: 50%;
+    margin: 10px auto;
+    font-size: 50px;
+    font-weight: 300px;
+}
+
+p {
+    color: black;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    margin-bottom: 20px;
+    transition: 0.8s ease;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.biter {
+    background-color: red;
+    color: azure;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+img {
+    border-radius: 40%;
+    margin: 20px 20px;
+    height: 200px;
+}
